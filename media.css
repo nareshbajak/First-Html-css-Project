@@ -1,0 +1,403 @@
+@media (max-width: 1024px) {
+    .service-section {
+        height: auto;
+    }
+
+    .service-card {
+        width: 310px;
+    }
+
+    .about-section {
+        height: auto;
+        /* flex-wrap: wrap; */
+    }
+
+    .about-cards {
+        width: 100%;
+    }
+
+    .p-card-1,
+    .p-card-2,
+    .p-card-3,
+    .p-card-4,
+    .p-card-5,
+    .p-card-6,
+    .p-card-7,
+    .p-card-8,
+    .p-card-9 {
+        height: 217px;
+        width: 290px;
+    }
+
+    .message-card,
+    .message-text {
+        width: 100%;
+    }
+
+    .team-row {
+        gap: 20px;
+    }
+
+    .team-card,
+    .team-card img {
+        width: 225px;
+    }
+}
+
+@media(max-width:912px) {
+    .card-text h6 {
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+
+    .card-text p {
+        font-size: 14px;
+    }
+
+    .service-img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .service-img i {
+        font-size: 20px;
+    }
+
+    .service-card {
+        width: 260px;
+    }
+
+    .subscribe-card {
+        width: 480px;
+    }
+
+    .service-text {
+        font-size: 14px;
+    }
+
+    .p-card-1,
+    .p-card-2,
+    .p-card-3,
+    .p-card-4,
+    .p-card-5,
+    .p-card-6,
+    .p-card-7,
+    .p-card-8,
+    .p-card-9 {
+        height: 200px;
+        width: 240px;
+    }
+
+    .team-card,
+    .team-card img {
+        width: 200px;
+    }
+
+    .team-card h4 {
+        font-size: 20px;
+    }
+
+    .team-card span {
+        font-size: 14px;
+    }
+
+    .image-card img {
+        height: auto;
+        width: 100%;
+    }
+
+    .portfolio-section {
+        height: auto;
+        margin-top: 40px;
+    }
+}
+
+@media(max-width:768px) {
+    .navbar {
+        /* padding-left: 40px; */
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .about-section .about-p {
+        font-size: 13px;
+    }
+
+    .about-section {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .about-cards h2,
+    .about-cards p {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .about-cards {
+        height: auto;
+    }
+
+    .about-row {
+        flex-wrap: wrap;
+    }
+
+    .navbar .logo img {
+        margin-left: 20px;
+    }
+
+    .service-section {
+        padding-bottom: 20px;
+    }
+
+    .service-row {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .subscribe-card {
+        width: 306px;
+    }
+
+    .portfolio-cards {
+        margin-top: 30px;
+        height: auto;
+    }
+
+    .p-card-1,
+    .p-card-2,
+    .p-card-3,
+    .p-card-4,
+    .p-card-5,
+    .p-card-6,
+    .p-card-7,
+    .p-card-8,
+    .p-card-9 {
+        height: 200px;
+        width: 230px;
+    }
+
+    .team-card {
+        width: 160px;
+        height: 305px;
+    }
+
+    .team-card img {
+        width: 160px;
+        height: auto;
+    }
+
+    .team-card h4 {
+        font-size: 15px;
+    }
+
+    .contact-card {
+        width: 100%;
+    }
+
+    .card-1 {
+        width: 60%;
+        padding-left: 40px;
+    }
+
+    .card-2 input,
+    .card-2 textarea {
+        width: 400px;
+    }
+
+    .card-2 {
+        width: 100%;
+    }
+}
+
+@media(max-width:540px) {
+    .service-card {
+        width: 100%;
+        padding: 40px 60px;
+        height: auto;
+    }
+
+    .service-text {
+        font-size: 12px;
+    }
+
+    .subscribe-section {
+        flex-wrap: wrap;
+        height: auto;
+        gap: 30px;
+        padding: 20px 0px;
+    }
+
+    .subscribe-card h3 {
+        font-size: 25px;
+    }
+
+    .subscribe-card p {
+        font-size: 17px;
+    }
+
+    .subscribe-btn button {
+        font-size: 14px;
+        height: 39px;
+        width: 185px;
+        padding: 4px 13px;
+    }
+
+    .portfolio-section {
+        margin-bottom: 40px;
+    }
+
+    .portfolio-row {
+        flex-direction: column;
+    }
+
+    .p-card-1,
+    .p-card-2,
+    .p-card-3,
+    .p-card-4,
+    .p-card-5,
+    .p-card-6,
+    .p-card-7,
+    .p-card-8,
+    .p-card-9 {
+        height: 300px;
+        width: 430px;
+        object-fit: contain;
+    }
+
+    .testimonial-text {
+        font-size: 12px;
+    }
+
+    .testimonial-card {
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .testimonials-section {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .team-row {
+        flex-direction: column;
+    }
+
+    .team-card {
+        width: 100%;
+        width: 260px;
+        height: auto;
+    }
+
+    .team-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .team-section {
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    .contact-card {
+        flex-direction: column;
+        height: auto;
+        gap: 30px;
+    }
+
+    .contact-section {
+        height: auto;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width:430px) {
+
+    .service-text,
+    .about-p,
+    .testimonial-text {
+        font-size: 12px;
+        padding: 0px 40px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 390px) {
+
+    .logo img {
+        height: 82px;
+        width: 234px;
+    }
+
+    .hero-section h1 {
+        font-size: 25px;
+    }
+
+    .hero-section h2 {
+        font-size: 20px;
+    }
+
+    .btn-1 {
+        font-size: 12px;
+        height: 38px;
+        width: 136px;
+    }
+
+    .btn-2 {
+        font-size: 13px;
+        height: 38px;
+        width: 146px;
+    }
+
+    .p-card-1,
+    .p-card-2,
+    .p-card-3,
+    .p-card-4,
+    .p-card-5,
+    .p-card-6,
+    .p-card-7,
+    .p-card-8,
+    .p-card-9 {
+        height: 300px;
+        width: 370px;
+        object-fit: contain;
+    }
+
+    .card-2 input,
+    .card-2 textarea {
+        width: 300px;
+    }
+}
+@media (max-width: 344px) {
+    .p-card-1,
+    .p-card-2,
+    .p-card-3,
+    .p-card-4,
+    .p-card-5,
+    .p-card-6,
+    .p-card-7,
+    .p-card-8,
+    .p-card-9 {
+        height: 300px;
+        width: 310px;
+        object-fit: cover;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card-2 input,
+    .card-2 textarea {
+        width: 300px;
+    }
+    .footer-section h4{
+        text-align: center;
+    }
+}
