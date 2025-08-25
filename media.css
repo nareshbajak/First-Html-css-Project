@@ -4,15 +4,23 @@
     }
 
     .service-card {
-        width: 310px;
+        width: 100%;
+        max-width: 310px;
     }
 
     .about-section {
         height: auto;
-        /* flex-wrap: wrap; */
     }
 
     .about-cards {
+        width: 100%;
+    }
+
+    .portfolio-row {
+        width: 100%;
+    }
+
+    .portfolio-cards {
         width: 100%;
     }
 
@@ -25,8 +33,12 @@
     .p-card-7,
     .p-card-8,
     .p-card-9 {
-        height: 217px;
-        width: 290px;
+        width: 100%;
+        max-width: 100%;
+        min-height: 200px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-sizing: border-box;
     }
 
     .message-card,
@@ -40,11 +52,12 @@
 
     .team-card,
     .team-card img {
-        width: 225px;
+        width: 100%;
+        max-width: 225px;
     }
 }
 
-@media(max-width:912px) {
+@media (max-width: 912px) {
     .card-text h6 {
         font-size: 18px;
         padding-bottom: 5px;
@@ -64,15 +77,25 @@
     }
 
     .service-card {
-        width: 260px;
+        width: 100%;
+        max-width: 260px;
     }
 
     .subscribe-card {
-        width: 480px;
+        width: 100%;
+        max-width: 480px;
     }
 
     .service-text {
         font-size: 14px;
+    }
+
+    .portfolio-row {
+        width: 100%;
+    }
+
+    .portfolio-cards {
+        width: 100%;
     }
 
     .p-card-1,
@@ -84,13 +107,17 @@
     .p-card-7,
     .p-card-8,
     .p-card-9 {
-        height: 200px;
-        width: 240px;
+        width: 100%;
+        max-width: 100%;
+        min-height: 200px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
     }
 
     .team-card,
     .team-card img {
-        width: 200px;
+        width: 100%;
+        max-width: 200px;
     }
 
     .team-card h4 {
@@ -112,9 +139,8 @@
     }
 }
 
-@media(max-width:768px) {
+@media (max-width: 768px) {
     .navbar {
-        /* padding-left: 40px; */
         justify-content: flex-start;
         width: 100%;
     }
@@ -160,7 +186,8 @@
     }
 
     .subscribe-card {
-        width: 306px;
+        width: 100%;
+        max-width: 306px;
     }
 
     .portfolio-cards {
@@ -177,17 +204,19 @@
     .p-card-7,
     .p-card-8,
     .p-card-9 {
-        height: 200px;
-        width: 230px;
+        height: auto;
+        width: 100%;
+        max-width: 230px;
     }
 
     .team-card {
-        width: 160px;
-        height: 305px;
+        width: 100%;
+        max-width: 160px;
+        height: auto;
     }
 
     .team-card img {
-        width: 160px;
+        width: 100%;
         height: auto;
     }
 
@@ -200,13 +229,15 @@
     }
 
     .card-1 {
-        width: 60%;
+        width: 100%;
+        max-width: 60%;
         padding-left: 40px;
     }
 
     .card-2 input,
     .card-2 textarea {
-        width: 400px;
+        width: 100%;
+        max-width: 400px;
     }
 
     .card-2 {
@@ -214,7 +245,7 @@
     }
 }
 
-@media(max-width:540px) {
+@media (max-width: 540px) {
     .service-card {
         width: 100%;
         padding: 40px 60px;
@@ -264,8 +295,9 @@
     .p-card-7,
     .p-card-8,
     .p-card-9 {
-        height: 300px;
-        width: 430px;
+        height: auto;
+        width: 100%;
+        max-width: 430px;
         object-fit: contain;
     }
 
@@ -292,7 +324,7 @@
 
     .team-card {
         width: 100%;
-        width: 260px;
+        max-width: 260px;
         height: auto;
     }
 
@@ -319,7 +351,7 @@
     }
 }
 
-@media (max-width:430px) {
+@media (max-width: 430px) {
 
     .service-text,
     .about-p,
@@ -331,10 +363,13 @@
 }
 
 @media (max-width: 390px) {
-
     .logo img {
         height: 82px;
-        width: 234px;
+        width: 100%;
+        max-width: 234px;
+    }
+    .btn-2{
+        margin-top: 20px;
     }
 
     .hero-section h1 {
@@ -348,13 +383,23 @@
     .btn-1 {
         font-size: 12px;
         height: 38px;
-        width: 136px;
+        width: 100%;
+        max-width: 136px;
     }
 
     .btn-2 {
         font-size: 13px;
         height: 38px;
-        width: 146px;
+        width: 100%;
+        max-width: 146px;
+    }
+
+    .portfolio-row {
+        width: 100%;
+    }
+
+    .portfolio-cards {
+        width: 100%;
     }
 
     .p-card-1,
@@ -366,17 +411,23 @@
     .p-card-7,
     .p-card-8,
     .p-card-9 {
-        height: 300px;
-        width: 370px;
-        object-fit: contain;
+        width: 100%;
+        max-width: 100%;
+        min-height: 200px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
     }
+
 
     .card-2 input,
     .card-2 textarea {
-        width: 300px;
+        width: 100%;
+        max-width: 300px;
     }
 }
+
 @media (max-width: 344px) {
+
     .p-card-1,
     .p-card-2,
     .p-card-3,
@@ -386,8 +437,9 @@
     .p-card-7,
     .p-card-8,
     .p-card-9 {
-        height: 300px;
-        width: 310px;
+        height: auto;
+        width: 100%;
+        max-width: 310px;
         object-fit: cover;
         align-items: center;
         justify-content: center;
@@ -395,9 +447,11 @@
 
     .card-2 input,
     .card-2 textarea {
-        width: 300px;
+        width: 100%;
+        max-width: 300px;
     }
-    .footer-section h4{
+
+    .footer-section h4 {
         text-align: center;
     }
 }
